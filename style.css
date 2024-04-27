@@ -23,34 +23,12 @@
 .font-Futura-XBlk-BT {
     font-family: "Futura-XBlk-BT";
 }
-.word-wrap-break-word{
-    word-wrap: break-word;
+.text-clamp-1 {
+    font-size: clamp(2.0rem, 2.3rem, 2.7rem);
 }
-.herosheet-left-bottom-left-name {
-    transform: rotate(-90deg);
-    transform-origin: 0 0;
+.text-clamp-2 {
+    font-size: clamp(0.5rem, 0.7rem, 1.1rem);
 }
-.herosheet-left-bottom-left-name>span.N{
-    line-height: 2dvh;
+.text-clamp-3 {
+    font-size: clamp(0.6rem, 0.9rem, 1.3rem);
 }
-.herosheet-left-bottom-left-name>span.dot{ 
-    line-height: 40px;
-}
-.herosheet-left-bottom-left-name>span.name{
-    line-height: 40px;
-}
-.herosheet-left-bottom-left-quote{
-    transform: rotate(-90deg);
-    transform-origin: 0 0;
-}
-.herosheet-left-bottom-left-quote>div.text{
-    line-height: 15px;
-}
-.herosheet-left-bottom-left-quote>div.text>span.and{ 
-}
-.herosheet-left-bottom-left-textline{
-    transform: rotate(-90deg);
-    transform-origin: 0 0;
-}
-
-  
