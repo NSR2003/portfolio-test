@@ -4,25 +4,17 @@
 
 @font-face {
     font-family: "knight-souls";
-    src: local("knight-souls"), url("../fonts/knight-souls.otf") format("opentype");
+    src:url("./fonts/knight-souls.otf");
 }
 @font-face {
     font-family: "trajan-pro";
-    src: local("trajan-pro"), url("../fonts/trajan-pro.ttf") format("truetype");
+    src:url("./fonts/Trajan-Pro.ttf");
 }
 @font-face {
     font-family: "Futura-XBlk-BT";
-    src: local("Futura-XBlk-BT"), url("../fonts/Futura-XBlk-BT.ttf") format("truetype");
+    src:url("./fonts/Futura-XBlk-BT.ttf");
 }
-.font-knight-souls {
-    font-family: "knight-souls";
-}
-.font-trajan-pro {
-    font-family: "trajan-pro";
-}
-.font-Futura-XBlk-BT {
-    font-family: "Futura-XBlk-BT";
-}
+
 .text-clamp-1 {
     font-size: clamp(2.0rem, 2.3rem, 2.7rem);
 }
