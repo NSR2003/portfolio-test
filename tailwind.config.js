@@ -19,7 +19,13 @@ export default {
       // => @media (max-width: 639px) { ... }
     },
    
-    extend: { },
+    extend: {
+      fontFamily: {
+        'knight-souls':['knight-souls'],
+        'trajan-pro':['trajan-pro'],
+        'Futura-XBlk-BT':['Futura-XBlk-BT'],
+      }
+     },
   },
   plugins: [
     function({addUtilities}) {

@@ -4,25 +4,17 @@
 
 @font-face {
     font-family: "knight-souls";
-    src:url("../fonts/knight-souls.otf");
+    src:url("./fonts/knight-souls.otf");
 }
 @font-face {
     font-family: "trajan-pro";
-    src:url("../fonts/trajan-pro.ttf");
+    src:url("./fonts/Trajan-Pro.ttf");
 }
 @font-face {
     font-family: "Futura-XBlk-BT";
-    src:url("../fonts/Futura-XBlk-BT.ttf");
+    src:url("./fonts/Futura-XBlk-BT.ttf");
 }
-.font-knight-souls {
-    font-family: "knight-souls";
-}
-.font-trajan-pro {
-    font-family: "trajan-pro";
-}
-.font-Futura-XBlk-BT {
-    font-family: "Futura-XBlk-BT";
-}
+
 .text-clamp-1 {
     font-size: clamp(2.0rem, 2.3rem, 2.7rem);
 }
