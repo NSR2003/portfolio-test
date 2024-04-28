@@ -9,146 +9,87 @@
   </head>
   <body class="no-scrollbar">
     <header class="nav-bar absolute w-full h-[13%]">
-      <nav class="w-full h-full flex sm:absolute sm:w-full sm:flex-col sm:z-10">
+      <nav class="flex w-full h-full sm:absolute sm:w-full sm:flex-col sm:z-10">
         <div
-          class="left-nav flex items-center bg-white w-[38.7056%] pl-4 h-full sm:w-full sm:flex sm:flex-row sm:items-center justify-between sm:h-28 sm:bg-transparent sm:py-0 sm:pt-4 sm:pb-2"
-        >
-          <img
-            class="logo w-14 h-14 sm:h-full sm:w-auto sm:py-3"
-            src="./static/main-logo.png"
-            alt="main logo"
-          />
+          class="left-nav flex items-center bg-white w-[38.7056%] pl-4 h-full sm:w-full sm:flex sm:flex-row sm:items-center justify-between sm:h-28 sm:bg-transparent sm:py-0 sm:pt-4 sm:pb-2">
+          <img class="logo w-14 h-14 sm:h-full sm:w-auto sm:py-3" src="./static/main-logo.png" alt="main logo" />
           <img
             onclick="ToggleMenu(this)"
             id="menu-icon"
-            class="menu sm:w-8 sm:h-8 sm:mr-4 sm:inline sm:cursor-pointer hidden"
+            class="hidden menu sm:w-8 sm:h-8 sm:mr-4 sm:inline sm:cursor-pointer"
             src="./static/menu-logo.png"
-            alt="menu"
-          />
+            alt="menu" />
         </div>
         <div
-          class="right-nav w-[62.2944%] bg-transparent flex items-center justify-end sm:w-full sm:justify-center sm:bg-white sm:hidden sm:opacity-0"
-        >
+          class="right-nav w-[62.2944%] bg-transparent flex items-center justify-end sm:w-full sm:justify-center sm:bg-white sm:hidden sm:opacity-0">
           <ui
-            class="flex pt-0 items-center text-white text-xs font-knight-souls sm:flex sm:flex-col sm:text-black sm:pt-0"
-          >
-            <li class="list-none p-3 mx-3"><a href="#">HOME</a></li>
-            <li class="list-none p-3 mx-3"><a href="#">WORK</a></li>
-            <li class="list-none p-3 mx-3"><a href="#">SKILLS</a></li>
-            <li class="list-none p-3 mx-3"><a href="#">CONTACT ME</a></li>
-            <ui class="flex pt-3 items-center sm:flex sm:justify-evenly">
+            class="flex items-center pt-0 text-xs text-white font-knight-souls sm:flex sm:flex-col sm:text-black sm:pt-0">
+            <li class="p-3 mx-3 list-none"><a href="#">HOME</a></li>
+            <li class="p-3 mx-3 list-none"><a href="#">WORK</a></li>
+            <li class="p-3 mx-3 list-none"><a href="#">SKILLS</a></li>
+            <li class="p-3 mx-3 list-none"><a href="#">CONTACT ME</a></li>
+            <ui class="flex items-center pt-3 sm:flex sm:justify-evenly">
               <li class="list-none mx-2.5 pb-1 md:w-5">
-                <img
-                  class="w-4"
-                  src="./static/upwork-logo-black.png"
-                  alt="upwork-logo"
-                />
+                <img class="w-4" src="./static/upwork-logo-black.png" alt="upwork-logo" />
               </li>
               <li class="list-none mx-2.5 pb-1 md:w-5">
-                <img
-                  class="w-4"
-                  src="./static/github-logo-black.png"
-                  alt="github-logo"
-                />
+                <img class="w-4" src="./static/github-logo-black.png" alt="github-logo" />
               </li>
               <li class="list-none mx-2.5 pb-1 md:w-5">
-                <img
-                  class="w-4"
-                  src="./static/gmail-logo-black.png"
-                  alt="gmail-logo"
-                />
+                <img class="w-4" src="./static/gmail-logo-black.png" alt="gmail-logo" />
               </li>
               <li class="list-none mx-2.5 mr-3.5 pb-1 md:w-5">
-                <img
-                  class="w-4"
-                  src="./static/instagram-logo-black.png"
-                  alt="instagram-logo"
-                />
+                <img class="w-4" src="./static/instagram-logo-black.png" alt="instagram-logo" />
               </li>
             </ui>
           </ui>
         </div>
       </nav>
     </header>
-    <section class="herosheet w-full h-dvh flex">
+    <section class="flex w-full herosheet h-dvh">
       <div class="herosheet-left w-[28.7462%] bg-white flex items-end">
         <div class="herosheet-left-inner w-full h-[87%]">
           <div class="herosheet-left-top w-full h-[20%] flex bg-slate-600">
-            <div class="hero-left-top-left h-full w-7/12 bg-stone-600"></div>
-            <div class="hero-left-top-right h-full w-5/12 bg-stone-700"></div>
+            <div class="w-7/12 h-full hero-left-top-left bg-stone-600"></div>
+            <div class="w-5/12 h-full hero-left-top-right bg-stone-700"></div>
           </div>
           <div class="herosheet-left-bottom w-full h-[80%] flex">
-            <div
-              class="herosheet-left-bottom-left h-full flex justify-center w-7/12"
-            >
-              <div
-                class="herosheet-left-bottom-left-inner relative h-full w-[70%] overflow-hidden ml-24 md:ml-0 lg:ml-0"
-              >
-                <div
-                  class="herosheet-left-bottom-left-name absolute text-center font-knight-souls w-[18.462rem] left-0 top-[61dvh] md:w-[29rem] md:top-[55.4dvh] lg:top-[59dvh] lg:w-[35rem]"
-                >
-                  <span
-                    class="N word-wrap-break-word text-black text-[2.188rem] font-[400] tracking-[3.5px] "
-                    >N</span
-                  >
-                  <span
-                    class="dot word-wrap-break-word font-Futura-XBlk-BT text-black line text-[1.25rem] font-[400] tracking-[2px]"
-                    >.</span
-                  >
-                  <span
-                    class="name word-wrap-break-word text-black text-[2.188rem] font-[400]"
-                    >SUPREETH REDDY</span
-                  >
+            <div class="flex justify-end h-full py-2 pr-4 grow herosheet-left-bottom-left">
+              <div class="relative flex flex-col items-center gap-1 overflow-hidden herosheet-left-bottom-left-name">
+                <div class="text-4xl text-center max-h-80 font-knight-souls">
+                  N <span class="font-sans font-extrabold">.</span> SUPREETH REDDY
                 </div>
                 <div
-                  class="herosheet-left-bottom-left-quote w-[412.54px] left-[98.16px] top-[412.54px] absolute md:left-[6dvw] md:top-[54.5dvh] lg:left-[6dvw] lg:top-[54.5dvh]"
-                >
-                  <div
-                    class="text word-wrap-break-word font-trajan-pro text-[0.665rem] font-[400] tracking-[1px] text-black"
-                  >
-                    Passionate Front End Developer UI/UX Designer
-                    <span class="and text-[0.75rem] tracking-[1.2px]">&</span>
-                    crafting immersive webpages
-                  </div>
+                  class="pr-1 text-xs break-words border-r-4 border-black text-pretty border-spacing-2 font-trajan-pro">
+                  Passionate Front End Developer UI/UX Designer &#38; crafting immersive webpages
                 </div>
                 <div
-                  class="herosheet-left-bottom-left-textline border-solid border-2 border-black w-[24.97rem] h-0 left-[91.24px] top-[413.54px] absolute md:left-[5.4dvw] md:top-[54.5dvh] lg:left-[5.4dvw] lg:top-[54.5dvh]"></div>
+                  class="hidden herosheet-left-bottom-left-textline border-solid border-2 border-black w-[24.97rem] h-0 left-[91.24px] top-[413.54px] absolute md:left-[5.4dvw] md:top-[54.5dvh] lg:left-[5.4dvw] lg:top-[54.5dvh]"></div>
               </div>
             </div>
-            <div
-              class="herosheet-left-bottom-right h-full w-5/12 bg-stone-900"
-            ></div>
+            <div class="w-5/12 h-full herosheet-left-bottom-right bg-stone-900"></div>
           </div>
         </div>
       </div>
-      <div
-        class="herosheet-right w-[71.2538%] h-dvh overflow-y-hidden sm:absolute sm:w-full"
-      >
+      <div class="herosheet-right w-[71.2538%] h-dvh overflow-y-hidden sm:absolute sm:w-full">
         <div
-          class="w-full h-full flex items-center justify-end"
+          class="flex items-center justify-end w-full h-full"
           style="
             background-image: url(./static/herosheet-img.jpg);
             background-size: cover;
             background-position: top;
             background-repeat: no-repeat;
-          "
-        >
-          <div
-            class="w-3/12 h-4/5 mr-8 flex items-end justify-end md:mr-0 sm:mr-0 sm:h-5/6"
-          >
-            <a class="rotate-90 flex flex-col items-center" href="#">
-              <p class="text-xl w-fit text-white md:text-black sm:text-black">
-                Get
-              </p>
-              <p class="text-xl w-fit text-white md:text-black sm:text-black">
-                Resume
-              </p>
+          ">
+          <div class="flex items-end justify-end w-3/12 mr-8 h-4/5 md:mr-0 sm:mr-0 sm:h-5/6">
+            <a class="flex flex-col items-center rotate-90" href="#">
+              <p class="text-xl text-white w-fit md:text-black sm:text-black">Get</p>
+              <p class="text-xl text-white w-fit md:text-black sm:text-black">Resume</p>
             </a>
           </div>
         </div>
       </div>
     </section>
-    <section class="w-full h-dvh bg-black"></section>
+    <!-- <section class="w-full bg-black h-dvh"></section> -->
     <script src="./home.js"></script>
     <script type="module" src="/main.js"></script>
   </body>

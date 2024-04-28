@@ -3,54 +3,53 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "knight-souls";
-    src: local("knight-souls"), url("../fonts/knight-souls.otf") format("opentype");
+  font-family: "knight-souls";
+  src: local("knight-souls"), url("../fonts/knight-souls.otf") format("opentype");
 }
 @font-face {
-    font-family: "trajan-pro";
-    src: local("trajan-pro"), url("../fonts/trajan-pro.ttf") format("truetype");
+  font-family: "trajan-pro";
+  src: local("trajan-pro"), url("../fonts/trajan-pro.ttf") format("truetype");
 }
 @font-face {
-    font-family: "Futura-XBlk-BT";
-    src: local("Futura-XBlk-BT"), url("../fonts/Futura-XBlk-BT.ttf") format("truetype");
+  font-family: "Futura-XBlk-BT";
+  src: local("Futura-XBlk-BT"), url("../fonts/Futura-XBlk-BT.ttf") format("truetype");
 }
 .font-knight-souls {
-    font-family: "knight-souls";
+  font-family: "knight-souls";
 }
 .font-trajan-pro {
-    font-family: "trajan-pro";
+  font-family: "trajan-pro";
 }
 .font-Futura-XBlk-BT {
-    font-family: "Futura-XBlk-BT";
+  font-family: "Futura-XBlk-BT";
 }
-.word-wrap-break-word{
-    word-wrap: break-word;
+.word-wrap-break-word {
+  word-wrap: break-word;
 }
 .herosheet-left-bottom-left-name {
-    transform: rotate(-90deg);
-    transform-origin: 0 0;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  transform: rotate(180deg);
 }
-.herosheet-left-bottom-left-name>span.N{
-    line-height: 2dvh;
+.herosheet-left-bottom-left-name > span.N {
+  line-height: 2dvh;
 }
-.herosheet-left-bottom-left-name>span.dot{ 
-    line-height: 40px;
+.herosheet-left-bottom-left-name > span.dot {
+  line-height: 40px;
 }
-.herosheet-left-bottom-left-name>span.name{
-    line-height: 40px;
+.herosheet-left-bottom-left-name > span.name {
+  line-height: 40px;
 }
-.herosheet-left-bottom-left-quote{
-    transform: rotate(-90deg);
-    transform-origin: 0 0;
+.herosheet-left-bottom-left-quote {
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
 }
-.herosheet-left-bottom-left-quote>div.text{
-    line-height: 15px;
+.herosheet-left-bottom-left-quote > div.text {
+  line-height: 15px;
 }
-.herosheet-left-bottom-left-quote>div.text>span.and{ 
+.herosheet-left-bottom-left-quote > div.text > span.and {
 }
-.herosheet-left-bottom-left-textline{
-    transform: rotate(-90deg);
-    transform-origin: 0 0;
+.herosheet-left-bottom-left-textline {
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
 }
-
-  
