@@ -19,7 +19,7 @@
             alt="main logo"
           />
           <img
-            onclick="ToggleMenu(this)"
+            
             id="menu-icon"
             class="menu sm:w-8 sm:h-8 sm:mr-4 sm:inline sm:cursor-pointer hidden"
             src="./static/menu-logo.png"
@@ -32,10 +32,18 @@
           <ui
             class="flex pt-0 items-center text-white text-xs font-knight-souls sm:flex sm:flex-col sm:text-black sm:pt-0"
           >
-            <li class="list-none p-3 mx-3"><a class="tracking-widest" href="#">HOME</a></li>
-            <li class="list-none p-3 mx-3"><a class="tracking-widest" href="#">WORK</a></li>
-            <li class="list-none p-3 mx-3"><a class="tracking-widest" href="#">SKILLS</a></li>
-            <li class="list-none p-3 mx-3"><a class="tracking-widest" href="#">CONTACT ME</a></li>
+            <li class="list-none p-3 mx-3">
+              <a class="tracking-widest" href="#">HOME</a>
+            </li>
+            <li class="list-none p-3 mx-3">
+              <a class="tracking-widest" href="#">WORK</a>
+            </li>
+            <li class="list-none p-3 mx-3">
+              <a class="tracking-widest" href="#">SKILLS</a>
+            </li>
+            <li class="list-none p-3 mx-3">
+              <a class="tracking-widest" href="#">CONTACT ME</a>
+            </li>
             <ui class="flex pt-3 items-center sm:flex sm:justify-evenly">
               <li class="list-none mx-2.5 pb-1 md:w-5">
                 <img
@@ -73,12 +81,14 @@
     <section class="herosheet w-full h-dvh flex">
       <div class="herosheet-left w-[28.7462%] bg-white flex items-end">
         <div class="herosheet-left-inner w-full h-[87%]">
-          <div class="herosheet-left-top w-full h-[20%] flex ">
-            <div class="hero-left-top-left h-full w-7/12 "></div>
-            <div class="hero-left-top-right h-full w-5/12 flex items-end  ">
+          <div class="herosheet-left-top w-full h-[20%] flex">
+            <div class="hero-left-top-left h-full w-7/12"></div>
+            <div class="hero-left-top-right h-full w-5/12 flex items-end">
               <div class="flex text-center">
-
-                <a class="font-trajan-pro text-clamp-3" href="#">International<br> Project</a>
+                <a class="font-trajan-pro text-clamp-3" href="#"
+                  >International<br />
+                  Project</a
+                >
               </div>
             </div>
           </div>
@@ -87,23 +97,39 @@
               class="herosheet-left-bottom-left h-full flex justify-end items-start w-7/12 lg:items-center md:items-center"
             >
               <div
-                class="herosheet-left-bottom-left-inner align-middle items-end justify-center flex  h-[80%] w-[80%] overflow-hidden"
+                class="herosheet-left-bottom-left-inner align-middle items-end justify-center flex h-[80%] w-[80%] overflow-hidden"
               >
-              <div class="h-[95%]">
-                <a href="#" class="vertical-rl rotate-180 font-knight-souls text-clamp-1 h-full  text-start">N<span class="font-Futura-XBlk-BT">.</span>SUPREETH REDDY</a>
-              </div>
-              <div class=" h-[87%] md:h-[75%] lg:h-[75%] ">
-              <svg class="h-full w-full"  viewBox="0 0 3 402" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.24316 400.839L1.24315 1.31854" stroke="black" strokeLinecap="round" strokeWidth="2"/>
-              </svg>
-              </div>
-              <a href="#" class="vertical-rl rotate-180 font-trajan-pro text-[0.6rem] h-full">Passionate Front End Developer & UI/UX Designer crafting immersive webpages.</a>
-              
+                <div class="h-[90%]">
+                  <a
+                    href="#"
+                    class="vertical-rl rotate-180 font-knight-souls text-clamp-1 h-full text-start"
+                    >N<span class="font-Futura-XBlk-BT">.</span>SUPREETH
+                    REDDY</a
+                  >
+                </div>
+                <div class="h-[87%] md:h-[75%] lg:h-[75%]">
+                  <svg
+                    class="h-full w-full"
+                    viewBox="0 0 3 402"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.24316 400.839L1.24315 1.31854"
+                      stroke="black"
+                      strokeLinecap="round"
+                      strokeWidth="2"
+                    />
+                  </svg>
+                </div>
+                <a
+                  href="#"
+                  class="vertical-rl rotate-180 font-trajan-pro text-[0.6rem] h-full"
+                  >Passionate Front End Developer &#38; UI/UX Designer  crafting
+                  immersive webpages.</a
+                >
               </div>
             </div>
-            <div
-              class="herosheet-left-bottom-right h-full w-5/12 "
-            ></div>
+            <div class="herosheet-left-bottom-right h-full w-5/12"></div>
           </div>
         </div>
       </div>
@@ -135,7 +161,7 @@
       </div>
     </section>
     <section class="w-full h-dvh bg-black"></section>
-    <script src="./home.js" type="module"></script>
+    <script type="module" src="/home.js"> </script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
