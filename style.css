@@ -14,6 +14,10 @@
     font-family: "Futura-XBlk-BT";
     src:url("./fonts/Futura-XBlk-BT.ttf");
 }
+@font-face {
+    font-family: "Museo";
+    src: url("./fonts/Museo-Regular.otf");
+}
 
 .text-clamp-1 {
     font-size: clamp(2.0rem, 2.3rem, 2.7rem);

@@ -24,6 +24,7 @@ export default {
         'knight-souls':['knight-souls'],
         'trajan-pro':['trajan-pro'],
         'Futura-XBlk-BT':['Futura-XBlk-BT'],
+        'Museo':['Museo'],
       }
      },
   },
